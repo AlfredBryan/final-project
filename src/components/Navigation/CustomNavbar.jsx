@@ -19,7 +19,7 @@ class CustomNavbar extends Component {
                           HOME
                           </NavItem>
                           <NavItem eventKey={2} componentClass={Link} href="/about" to="/about" >
-                          ABOUT
+                          ABOUT US
                           </NavItem>
                           <NavItem eventKey={3} componentClass={Link} href="/accomodation" to="/accomodation" >
                           ACCOMODATION

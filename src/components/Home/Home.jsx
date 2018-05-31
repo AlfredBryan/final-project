@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './Home.css';
+import CustomNavbar from '../Navigation/CustomNavbar';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
+            
+            <CustomNavbar />
+
               <div className="banner" >
-                  <img src={require('./image/beach2.jpg')} width="100%" alt="beach" />
                   <h6 className="banner-contenth6">AWAY FROM MONOTONOUS LIFE</h6>
                   <h2 className="banner-contenth2">Relax Your Mind</h2>
                   <p className="banner-contentp">

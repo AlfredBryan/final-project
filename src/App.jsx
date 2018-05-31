@@ -9,7 +9,6 @@ import Accomodation from './components/Accomodation/Accomodation';
 import Blog from './components/Blog/Blog';
 import Elemests from './components/Elemests/Elemests';
 import Contact from './components/Contact/Contact';
-import CustomNavbar from './components/Navigation/CustomNavbar';
 
 
 class App extends Component {
@@ -17,7 +16,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-        <CustomNavbar />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/accomodation" component={Accomodation} />

@@ -4,7 +4,9 @@ class About extends Component {
     render () {
         return (
             <div>
-              About  
+              <div className="banner">
+                  <img src={require('./image/About.jpg')} alt="balcony" />
+                  </div>  
             </div>
         )
     }
