@@ -515,3 +515,59 @@ body {
     color: #777777;
     margin-bottom: 0px;
 }
+.post-head-h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+}
+.post-head {
+    text-align: center;
+}
+
+.post-head p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 0px;  
+}
+.blog-post {
+    display: flex;
+    margin-top: 100px;
+}
+.blog-image1 {
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+}
+.blog-image2 {
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+}
+.blog-image3 {
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+}
+.blog-image1:hover {
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform:  scale(1.2) rotate(20deg);;
+}
+.blog1 {
+  overflow: hidden;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.blog2 {
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .blog3 {
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
